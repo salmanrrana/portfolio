@@ -1,0 +1,53 @@
+body {
+  letter-spacing: .3em;
+  font-family: 'Lekton', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  background-image: url("http://68.media.tumblr.com/c8fed81d30618d7f143a7c3e4a2218e4/tumblr_obtyzpqwds1ug743po1_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkedin{
+  color: #FFFFFF;
+}
+
+.linkedin:hover {
+  color: rgba(51,151,230,.8);
+}
+
+.email{
+  color: #FFFFFF;
+}
+
+.email:hover {
+  color: rgba(85,205,52,.8);
+}
+
+.github {
+  color: #FFFFFF;
+}
+
+.github:hover {
+  color: rgba(209,56,55,.8);
+}
+
+
+.contact-list {
+  opacity: 0;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,93 @@
+.sidenav {
+  display: none;
+}
+
+.sidenav-activated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(5, 6, 11, .99);
+  overflow-x: hidden;
+  overflow: scroll;
+  padding-top: 60px;
+}
+
+.link-to-pages {
+  font-family: 'Lekton', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(255, 255, 255, .8);
+  display: block;
+  transition: .2s;
+}
+
+.close-btn {
+  font-family: 'Lekton', sans-serif;
+  cursor: pointer;
+}
+
+.link-to-pages:hover {
+  color: rgba(147, 183, 190, .9);
+  font-size: 23px;
+}
+
+.sidenav .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.home-icon {
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin-left: 14px;
+  margin-bottom: 10px;
+}
+
+.home-icon:hover{
+  height: 35px;
+  width:35px;
+}
+
+#open-tab {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.navbar-sign {
+  font-family: 'Lekton', sans-serif;
+  position: absolute;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 40px;
+  color: rgba(255, 255, 255, .9);
+  -webkit-transition: font-size .3s;
+  transition: font-size .3s;
+}
+
+.navbar-sign:hover {
+  color: rgba(88, 111, 107, .9);
+  font-size: 45px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

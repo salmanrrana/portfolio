@@ -1,0 +1,99 @@
+body {
+  font-family: 'Lekton', sans-serif;
+  letter-spacing: .3em;
+}
+
+html {
+  background: url("http://i.imgur.com/a7TyA6c.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: scroll;
+  /*height: 100%;
+  margin: 0;*/
+}
+
+h2 {
+  color: rgba(255,255,255,.9);
+  font-size: 30px;
+}
+
+/*this is the body of the projects page*/
+
+.projects-header {
+  display: flex;
+  justify-content: center;
+}
+
+.therow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  height: 460px;
+  width: 760px;
+  margin: 60px;
+  background: rgba(255,255,255,.7);
+  box-shadow: 8px 8px 4px rgba(0,0,0,.5);
+}
+
+h4 {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(27,0,71,.87);
+  padding: 15px;
+}
+
+.pic-of-project {
+  /*padding: 20px;*/
+  height: 275px;
+  width: 450px;
+  margin-top: 10px;
+  box-shadow: 8px 8px 4px rgba(0,0,0,.5);
+}
+
+.pic-of-project:hover{
+  box-shadow: 8px 8px 4px rgba(81,82,84,.5);
+}
+
+.top-projects-on-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btm-projects-on-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.go-to-site{
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(246,70,1);
+}
+
+.theProjects {
+  margin: auto;
+}
+.theProjectsTwo {
+  margin: auto;
+}
+
+@media (max-width: 1245px){
+  .therow {
+    display: flex;
+    flex-direction: column;
+  }
+  .theProjects {
+    margin: auto;
+  }
+  .theProjectsTwo {
+    margin: auto;
+  }
+}
