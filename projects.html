@@ -19,11 +19,11 @@
     <nav>
       <div class="sidenav" id="the-side-nav">
         <a class="link-to-pages close-btn" style="font-size: 70px">&times;</a>
-        <a href="index.html"><img src="http://www.iconsdb.com/icons/preview/white/home-4-xxl.png" class="home-icon" alt="home icon"></a>
+        <a href="index.html"><img  src="http://www.iconsdb.com/icons/preview/white/home-4-xxl.png" class="home-icon" alt="home icon"></a>
 
-        <a class="link-to-pages"  href="about.html">{ABOUT ME}</a>
-        <a class="link-to-pages"  href="skills.html">{RESUME}</a>
-        <a class="link-to-pages"  href="contact.html">{CONTACT}</a>
+        <!-- <a class="link-to-pages"  href="about.html">{ABOUT ME}</a> -->
+        <a class="link-to-pages" href="skills.html">{RESUME}</a>
+        <a class="link-to-pages" href="contact.html">{CONTACT}</a>
       </div>
       <div id="open-tab">
         <span class="navbar-sign">&#9776;</span>
@@ -41,31 +41,34 @@
       <div class="projects-real-section">
         <div class="therow">
           <div class="theProjects">
-            <div class="projects top-projects-on-page">
-              <a target="_blank" class="go-to-site" href="https://salmanrrana.github.io/Tic-Tac-Toe-Game/"><img class="pic-of-project" src="./css/tictactoe.png" alt="picture of tic tac toe game"></a>
-              <div class="discription">
-                <h4>This was a game I made with Javascript and JQuery. Check it out and play a game or two with a friend <a target="_blank" class="go-to-site" href="https://salmanrrana.github.io/Tic-Tac-Toe-Game/">HERE</a> But watch out, cause it can get addicting and you may never stop.</h4>
-              </div>
+            <div class="projects btm-projects-on-page">
+              <img id="myImg5" class="pic-of-project" src="./images/apples2.png" alt="apples to oranges project">
             </div>
-            <div class="projects top-projects-on-page">
-              <a target="_blank" class="go-to-site" href="http://health-connect-ga.herokuapp.com/"><img class="pic-of-project" src="./images/healthconnect.png" alt="picture of health connect group project"></a>
-              <div class="discription">
-                <h4>A group project with a UX team providing mockups and wireframes. I worked on setting up the backend of the app using node.js, express, and mongoDB. The app connects children, through their guardians sign up, with doctor-care through the school nurse. Check it out <a target="_blank" class="go-to-site" href="http://health-connect-ga.herokuapp.com/">HERE</a> </h4>
-              </div>
+            <div class="projects btm-projects-on-page">
+              <img id="myImg6" class="pic-of-project" src="./images/finalcountdown.png" alt="the final countdown project">
             </div>
           </div>
           <div class="theProjectsTwo">
-            <div class="projects btm-projects-on-page">
-              <a target="_blank" class="go-to-site" href="https://salmanrrana.github.io/drum_sampler/"><img class="pic-of-project" src="./images/drumsampler.png" alt="picture of custom drum sampler"></a>
-              <div class="discription">
-                <h4>Small and fun javscript excercise to make a simple sampler. Check it out  <a target="_blank" class="go-to-site" href="https://salmanrrana.github.io/drum_sampler/">HERE</a> and let your imagination and musical side shine.</h4>
-              </div>
+            <div class="projects top-projects-on-page">
+                <img id="myImg2" class="pic-of-project" src="./images/healthconnect.png" alt="health connect group project">
             </div>
             <div class="projects btm-projects-on-page">
-              <img class="pic-of-project" src="./images/weatherapp.png" alt="picture of the pinche weather">
-              <div class="discription">
-                <h4>A weather app that use the openweather API and an API that finds your location to give you your weather according to that location. Check it out<a class="go-to-site" target="_blank" href="#"> HERE</a></h4>
-              </div>
+              <img id="myImg7" class="pic-of-project" src="./images/mouthy.png" alt="Personal passion project">
+            </div>
+          </div>
+        </div>
+        <div class="therow2">
+          <div class="theProjectsThree">
+            <div class="projects top-projects-on-page">
+              <img id="myImg" class="pic-of-project" src="./css/tictactoe.png" alt="picture of tic tac toe game">
+            </div>
+            <div class="projects btm-projects-on-page">
+              <img id="myImg3" class="pic-of-project" src="./images/drumsampler.png" alt="picture of custom drum sampler">
+            </div>
+          </div>
+          <div class="theProjectsFour">
+            <div class="projects btm-projects-on-page">
+              <img id="myImg4" class="pic-of-project" src="./images/weatherapp.png" alt="picture of the pinche weather">
             </div>
           </div>
         </div>
@@ -73,11 +76,75 @@
 
 
     </div>
-    </div>
 
 
   </section>
 
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption">
+      <h4>Play a game or two with a friend <a target="_blank" class="go-to-site" href="https://salmanrrana.github.io/Tic-Tac-Toe-Game/">HERE</a> But watch out, because it can get addicting and you may never stop. Technologies Used :: HTML - CSS - Javascript - jQuery</h4>
+      <!-- <h3> Technologies Used :: HTML - CSS - Javascript - jQuery</h3> -->
+    </div>
+  </div>
+
+  <div id="myModal2" class="modal">
+    <span class="close2">&times;</span>
+    <img class="modal-content" id="img02">
+    <div id="caption">
+      <h4>A group project with a UX team providing mockups and wireframes. I worked on setting up the backend of the app using node.js, express, and mongoDB. The app connects children, through their guardians sign up, with doctor-care through the school nurse. Check it out <a target="_blank" class="go-to-site" href="http://health-connect-ga.herokuapp.com/">HERE</a>Technologies Used :: Node.js - Mongoose - Express - HTML - CSS</h4>
+      <!-- <h3> Technologies Used :: Node.js - Mongoose - Express - HTML - CSS</h3> -->
+    </div>
+  </div>
+
+  <div id="myModal3" class="modal">
+    <span class="close3">&times;</span>
+    <img class="modal-content" id="img03">
+    <div id="caption">
+      <h4>Small and fun javscript excercise to make a simple sampler. Check it out  <a target="_blank" class="go-to-site" href="https://salmanrrana.github.io/drum_sampler/">HERE</a> and let your imagination and musical side shine. Technologies Used :: HTML - CSS - Javascript</h4>
+      <!-- <h3> Technologies Used :: HTML - CSS - Javascript</h3> -->
+
+    </div>
+  </div>
+
+  <div id="myModal4" class="modal">
+    <span class="close4">&times;</span>
+    <img class="modal-content" id="img04">
+    <div id="caption">
+      <h4>Weather app that uses an API that determines the location of the user from their IP address and then will display the current weather of that user with he OpenWeather API. The weather always changes hour by hour and I'm always weary of 5 day forecasts and how they change, so along with the with the current weather the user also gets the next 15 hours of weather. Check out the code <a class="go-to-site" target="_blank" href="https://github.com/salmanrrana/Final_Countdown"> HERE</a>Technologies Used :: HTML - CSS - Javascript - jQuery</h4>
+      <!-- <h3> Technologies Used :: HTML - CSS - Javascript - jQuery</h3> -->
+    </div>
+  </div>
+
+  <div id="myModal5" class="modal">
+    <span class="close5">&times;</span>
+    <img class="modal-content" id="img05">
+    <div id="caption">
+      <h4>A current personal group project aiming to resolve the headaches of long messy links, this website and Chrome Extension allows users to right click on items from across the web and add the item to their basket in order to comparitive shop in one location. After the user has their items in a basket, they can share it with their friends and leave comments on each item. WE still have a bunch of work to finish, but are excited to roll it out soon. Technologies Used :: ReactJS - Firebase - Javascript</h4>
+      <!-- <h3> Technologies Used :: ReactJS - Firebase</h3> -->
+
+    </div>
+  </div>
+
+  <div id="myModal6" class="modal">
+    <span class="close6">&times;</span>
+    <img class="modal-content" id="img06">
+    <div id="caption">
+      <h4>React based countdown clock with specific styling of CSS added to the text of the app. This project has helped show how powerful and easy the framework can and helped me explore my inner 80s designer chops. Check out the code <a class="go-to-site" target="_blank" href="https://github.com/salmanrrana/Final_Countdown"> HERE.</a> Technologies Used :: ReactJS - Javascript - CSS</h4>
+      <!-- <h3> Technologies Used :: ReactJS - Javascript - CSS</h3> -->
+    </div>
+  </div>
+
+  <div id="myModal7" class="modal">
+    <span class="close7">&times;</span>
+    <img class="modal-content" id="img07">
+    <div id="caption">
+      <h4>Personal passion project still in progress, this app aims to give the D.I.Y. arts and music community an uncluttered and easy way to search for events and music around the Austin area. Technologies Used :: Mongoose - Express - ReactJS - NodeJS - Redux</h4>
+      <!-- <h3> Technologies Used :: Mongoose - Express - ReactJS - NodeJS - Redux</h3> -->
+
+    </div>
+  </div>
 
 </body>
 
