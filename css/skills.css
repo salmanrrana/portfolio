@@ -1,12 +1,12 @@
 body {
-  background: rgba(27,0,71,.87);
+  background: rgb(77,71,115);
   color: rgb(247,243,227);
   font-family: 'Lekton', sans-serif;
   letter-spacing: .3em;
-}
-
-html {
-  background-color: black;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  min-height: 100%;
 }
 
 .thebutton {
@@ -14,7 +14,7 @@ html {
   font-size: 1.5em;
   border: .1px solid rgb(247,243,227);
   border-radius: 10px;
-  background-color: rgba(30,71,67,.9);
+  background-color: rgba(21,9,81,.9);
   /*box-shadow: 5px 5px 3px rgba(204,221,211,.2);*/
   color: rgb(247,243,227);
   margin-top: 25px;
@@ -35,8 +35,8 @@ html {
 }
 
 .resume {
-  height: 50%;
-  width: 50%;
+  max-height: 650px;;
+  max-width: : 750px;
   box-shadow: 8px 8px 4px rgba(204,221,211,.2);
 }
 
@@ -52,4 +52,11 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media (max-width: 660px){
+  .resume {
+    height: 400px;
+    width: 350px;
+  }
 }
