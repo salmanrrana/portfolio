@@ -59,4 +59,7 @@ body {
     height: 400px;
     width: 350px;
   }
+  h3{
+    font-size: 30px;
+  }
 }

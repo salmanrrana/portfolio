@@ -18,7 +18,7 @@ $(function() {
 
   $('.background-image').animate({
     opacity: 1
-  }, {duration: 4000});
+  }, {duration: 3000});
   $('.projects').animate({
     opacity: 1
   }, {duration: 2000});
