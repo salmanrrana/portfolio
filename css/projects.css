@@ -96,36 +96,6 @@ h4 {
   color: rgb(246, 70, 1);
 }
 
-.theProjects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-
-}
-
-.theProjectsTwo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-
-}
-
-.theProjectsThree {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-}
-
-.theProjectsFour {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-}
-
 
 @media (max-width: 1245px) {
   .therow {
