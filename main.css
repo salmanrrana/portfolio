@@ -7,6 +7,8 @@ body, html {
   background-size: cover;
   overflow: scroll;
   letter-spacing: .3em;
+  background: url(atree1.jpg) no-repeat;
+background-size: cover;
 }
 
 html {
@@ -63,4 +65,13 @@ html {
   .name {
     font-size: 25px;
   }
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(atree1.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
 }
