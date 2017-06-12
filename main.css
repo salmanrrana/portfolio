@@ -78,6 +78,6 @@ html {
 
 @media (max-width: 767px) {
     .background-image {
-        background: url('atree1.jpg') center center / cover no-repeat;
+        background: url('atree1.mp4') center center / cover no-repeat;
     }
 }
