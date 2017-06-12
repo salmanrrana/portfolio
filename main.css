@@ -66,18 +66,18 @@ html {
     font-size: 25px;
   }
 }
-/*
+
 @media screen and (max-device-width: 800px) {
     html {
-         background: url(atree1.jpg) #000 no-repeat center center fixed;
+         background: url('atree1.jpg') #000 no-repeat center center fixed;
     }
     #bgvid {
         display: none;
     }
-}*/
+}
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .background-image {
         background: url('http://68.media.tumblr.com/1d5a1e0b297cb9c3fa632b30d088abb8/tumblr_of78d1wSW71ug743po1_1280.jpg') center center / cover no-repeat;
     }
-}
+}*/
