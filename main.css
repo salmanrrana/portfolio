@@ -68,7 +68,7 @@ html {
 }
 
 @media screen and (max-device-width: 800px) {
-    html {
+    .background-image {
          background: url('atree1.jpg') #000 no-repeat center center fixed;
     }
     #bgvid {
