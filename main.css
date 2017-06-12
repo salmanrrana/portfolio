@@ -66,12 +66,18 @@ html {
     font-size: 25px;
   }
 }
-
+/*
 @media screen and (max-device-width: 800px) {
     html {
          background: url(atree1.jpg) #000 no-repeat center center fixed;
     }
     #bgvid {
         display: none;
+    }
+}*/
+
+@media (max-width: 767px) {
+    .background-image {
+        background: url('atree1.jpg') center center / cover no-repeat;
     }
 }
