@@ -6,7 +6,7 @@ body {
 html {
   background: url("http://i.imgur.com/a7TyA6c.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   overflow: scroll;
   /*height: 100%;
   margin: 0;*/
