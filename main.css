@@ -69,7 +69,7 @@ html {
 
 @media screen and (max-device-width: 800px) {
     .background-image {
-         background: url('atree1.jpg') #000 no-repeat center center fixed;
+         background: url('http://68.media.tumblr.com/1d5a1e0b297cb9c3fa632b30d088abb8/tumblr_of78d1wSW71ug743po1_1280.jpg') #000 no-repeat center center fixed;
     }
     #bgvid {
         display: none;
