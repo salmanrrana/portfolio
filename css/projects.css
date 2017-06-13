@@ -29,6 +29,7 @@ h2 {
 
 .projects-header {
   display: flex;
+  justify-content: space-around;
   -webkit-display: flex;
   -webkit-justify-content: space-around;
   justify-content: center;
@@ -38,6 +39,7 @@ h2 {
   display: flex;
   -webkit-display: flex;
   justify-content: center;
+  -webkit-justify-content: center;
   flex-direction: row;
 }
 
@@ -45,20 +47,23 @@ h2 {
   display: flex;
   -webkit-display: flex;
   justify-content: center;
+  -webkit-justify-content: center;
   flex-direction: row;
 }
 
 .therow3 {
   display: flex;
-  -webkit-display: flex;
   justify-content: center;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
   flex-direction: row;
 }
 
 .projects {
   display: flex;
-  -webkit-display: flex;
   justify-content: center;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
   align-items: center;
   flex-direction: column;
   opacity: 0;
@@ -94,6 +99,7 @@ h4 {
 .top-projects-on-page {
   display: flex;
   -webkit-display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
   align-items: center;
 }
@@ -101,6 +107,7 @@ h4 {
 .btm-projects-on-page {
   display: flex;
   -webkit-display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
   align-items: center;
 }
