@@ -36,28 +36,28 @@ h2 {
 
 .therow {
   display: flex;
-  display: -webkit-flex;
+  -webkit-display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
 .therow2 {
   display: flex;
-  display: -webkit-flex;
+  -webkit-display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
 .therow3 {
   display: flex;
-  display: -webkit-flex;
+  -webkit-display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
 .projects {
   display: flex;
-  display: -webkit-flex;
+  -webkit-display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -93,14 +93,14 @@ h4 {
 
 .top-projects-on-page {
   display: flex;
-  display: -webkit-flex;
+  -webkit-display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .btm-projects-on-page {
   display: flex;
-  display: -webkit-flex;
+  -webkit-display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -115,19 +115,19 @@ h4 {
 @media (max-width: 1245px) {
   .therow {
     display: flex;
-    /*display: -webkit-flex;*/
+    -webkit-display: flex;
     flex-direction: column;
     margin: auto;
   }
   .therow2 {
     display: flex;
-    /*display: -webkit-flex;*/
+    -webkit-display: flex;
     flex-direction: column;
     margin: auto;
   }
   .therow3 {
     display: flex;
-    /*display: -webkit-flex;*/
+    -webkit-display: flex;
     flex-direction: column;
     margin: auto;
   }
@@ -204,6 +204,8 @@ h4 {
 #caption{
   display: flex;
   justify-content: center;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-left: auto;
