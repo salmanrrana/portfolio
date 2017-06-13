@@ -44,6 +44,12 @@ h2 {
   flex-direction: row;
 }
 
+.therow3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .projects {
   display: flex;
   justify-content: center;
@@ -120,6 +126,9 @@ h4 {
     margin: auto;
   }
   .theProjectsFour {
+    margin: auto;
+  }
+  .theProjectsFive {
     margin: auto;
   }
 }
@@ -265,7 +274,15 @@ h4 {
   font-weight: bold;
   transition: 0.3s;
 }
-
+.close9 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
 .close:hover, .close:focus {
   color: #bbb;
   text-decoration: none;
@@ -306,6 +323,11 @@ h4 {
   cursor: pointer;
 }
 .close8:hover, .close8:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close9:hover, .close9:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;

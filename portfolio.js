@@ -39,6 +39,8 @@ $(function() {
   var modal6 = document.getElementById('myModal6');
   var modal7 = document.getElementById('myModal7');
   var modal8 = document.getElementById('myModal8');
+  var modal9 = document.getElementById('myModal9');
+
 
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   var img = document.getElementById('myImg');
@@ -49,6 +51,8 @@ $(function() {
   var img6 = document.getElementById('myImg6');
   var img7 = document.getElementById('myImg7');
   var img8 = document.getElementById('myImg8');
+  var img9 = document.getElementById('myImg9');
+
 
   var modalImg = document.getElementById("img01");
   var modalImg2 = document.getElementById("img02");
@@ -58,6 +62,8 @@ $(function() {
   var modalImg6 = document.getElementById("img06");
   var modalImg7 = document.getElementById("img07");
   var modalImg8 = document.getElementById("img08");
+  var modalImg9 = document.getElementById("img09");
+
 
   img.onclick = function(){
       modal.style.display = "block";
@@ -99,6 +105,11 @@ $(function() {
       modalImg8.src = this.src;
   }
 
+  img9.onclick = function(){
+      modal9.style.display = "block";
+      modalImg9.src = this.src;
+  }
+
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
   var span2 = document.getElementsByClassName("close2")[0];
@@ -108,6 +119,8 @@ $(function() {
   var span6 = document.getElementsByClassName("close6")[0];
   var span7 = document.getElementsByClassName("close7")[0];
   var span8 = document.getElementsByClassName("close8")[0];
+  var span9 = document.getElementsByClassName("close9")[0];
+
 
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
@@ -140,6 +153,10 @@ $(function() {
 
   span8.onclick = function() {
       modal8.style.display = "none";
+  }
+
+  span9.onclick = function() {
+      modal9.style.display = "none";
   }
 
 });
